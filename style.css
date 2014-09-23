@@ -1,0 +1,307 @@
+/*Download Hover*/
+
+.col-md-4 {
+  position: relative;
+}
+
+.screen-overlay1{
+  height: 100%;
+  background-color: #222;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  opacity: 0.2;
+  bottom: 0;
+  right: 15px;
+  display: none;
+}
+
+.screen-overlay2{
+  height: 100%;
+  background-color: #222;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  opacity: 0.5;
+  bottom: 0;
+  right: 15px;
+  display: none;
+}
+
+.screen-overlay3{
+  height: 100%;
+  background-color: #222;
+  position: absolute;
+  top: 0;
+  left: 15px;
+  opacity: 0.2;
+  bottom: 0%;
+  right: 15px;
+  display: none;
+}
+
+#dl1 {
+  position: absolute;
+  max-width: 100px;
+  width: 100%;
+  bottom: 36%;
+  border: none;
+  left: 30.6%;
+  display: none;
+}
+
+#dl2 {
+  position: absolute;
+  max-width: 100px;
+  width: 100%;
+  bottom: 36%;
+  border: none;
+  left: 30.6%;
+  display: none;
+}
+#dl3 {
+  position: absolute;
+  max-width: 100px;
+  width: 100%;
+  bottom: 36%;
+  border: none;
+  left: 30.6%;
+  display: none;
+}
+
+/*Press*/
+.people-stylewatch {
+  max-width: 260px;
+  width: 100%;
+}
+
+.marketing h4 {
+  font-weight: 300;
+  margin-top: 20px;
+}
+
+.ima {
+  max-width: 247px;
+  width: 100%;
+}
+
+.yahoo {
+  max-width: 300px;
+  width: 100%;
+}
+
+.blazer {
+  max-width: 300px;
+  width: 100%;
+}
+
+.fashinvest {
+  width: 100%;
+  max-width: 270px;
+}
+
+/*Logos*/
+.sk-border {
+  border-left: 1px solid #eee;
+}
+
+.logo-center {
+  text-align: center;
+}
+
+.white-on-black {
+  background-color: #000;
+  border-radius: 6px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding: 5px 0 2px 0;
+}
+
+.black-on-white {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #eee;
+  border-radius: 6px;
+  margin-top: 6px;
+  width: 100%;
+  padding: 5px 0 2px 0;
+}
+
+.logo-png .sk img {
+  max-width: 140px;
+  width: 100%;
+}
+
+.logo-png .row .sk {
+  max-width: 123px;
+  width: 100%;
+}
+.logo-png img {
+  max-width: 400px;
+  width: 100%;
+}
+
+.logo-png {
+  margin-top: 40px;
+}
+
+/*App Screenshots*/
+.app-screenshots-image {
+  text-align: center;
+}
+
+.app-screenshots {
+  margin-top: 40px;
+}
+.app-screenshots img{
+  max-width: 215px;
+  border-radius:6px;
+  border: 1px solid #eee;
+  width: 100%;
+}
+
+/*Header*/
+.pr-contact {
+  color:#777;
+  margin-top: 6px;
+}
+
+.header .text-muted {
+  padding-bottom: 0;
+}
+
+
+/* Text Appearance */
+h1 {
+  font-size: 25px;
+}
+a {
+  color:#00cdb4;
+}
+
+a:hover {
+  color:#00cdb4;
+}
+
+h2 {
+  font-weight: 300;
+  font-family:Gotham, 'sans-serif';
+}
+
+.lead {
+  font-family: Gotham;
+}
+
+.jumbotron p {
+  font-size:18px;
+}
+
+.text-muted {
+  font-family: Gotham, 'sans-serif';
+  font-weight: 300;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.footer p {
+  font-family: gotham;
+  font-weight: 300;
+}
+
+.jumbotron img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.download {
+  width: 100%;
+}
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  padding-bottom: 19px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 0.8em;
+  background-color:#00cdb4;
+  font-family: Gotham, 'sans-serif';
+  font-weight: 300;
+}
+
+.jumbotron p {
+  font-size:18px;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
