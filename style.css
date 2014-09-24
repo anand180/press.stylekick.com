@@ -1,68 +1,31 @@
 /*Download Hover*/
+.itunes {
+  margin-top: 25px;
+}
+
 
 .col-md-4 {
   position: relative;
 }
 
-.screen-overlay1{
-  height: 100%;
+.iphone-overlay {
+  height: 72%;
   background-color: #222;
   position: absolute;
-  top: 0;
-  left: 15px;
-  opacity: 0.2;
+  top: 14%;
+  left: 13%;
   bottom: 0;
-  right: 15px;
+  right: 12%;
   display: none;
+  opacity: 0.4;
+  border-radius: 2px;
 }
 
-.screen-overlay2{
-  height: 100%;
-  background-color: #222;
-  position: absolute;
-  top: 0;
-  left: 15px;
-  opacity: 0.5;
-  bottom: 0;
-  right: 15px;
-  display: none;
-}
 
-.screen-overlay3{
-  height: 100%;
-  background-color: #222;
+.dl {
   position: absolute;
-  top: 0;
-  left: 15px;
-  opacity: 0.2;
-  bottom: 0%;
-  right: 15px;
-  display: none;
-}
-
-#dl1 {
-  position: absolute;
-  max-width: 100px;
-  width: 100%;
-  bottom: 36%;
-  border: none;
-  left: 30.6%;
-  display: none;
-}
-
-#dl2 {
-  position: absolute;
-  max-width: 100px;
-  width: 100%;
-  bottom: 36%;
-  border: none;
-  left: 30.6%;
-  display: none;
-}
-#dl3 {
-  position: absolute;
-  max-width: 100px;
-  width: 100%;
+  max-width: 100px !important;
+  width: 100% !important;
   bottom: 36%;
   border: none;
   left: 30.6%;
@@ -156,10 +119,8 @@
 .app-screenshots {
   margin-top: 40px;
 }
-.app-screenshots img{
+.app-screenshots img {
   max-width: 215px;
-  border-radius:6px;
-  border: 1px solid #eee;
   width: 100%;
 }
 
@@ -303,5 +264,60 @@ body {
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 350px){
+  .pull-right {
+    float: left!important;
+    margin-bottom:1px;
+  }
+
+  .dl {
+    position: absolute;
+    max-width: 100px;
+    width: 100%;
+    bottom: 36%;
+    border: none;
+    left: 35%;
+    display: none;
+  }
+
+  .iphone-overlay {
+    height: 72.4%;
+    background-color: #222;
+    position: absolute;
+    top: 14%;
+    left: 22%;
+    bottom: 0;
+    right: 21%;
+    display: none;
+    opacity: 0.4;
+    border-radius: 2px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 384px) {
+  .iphone-overlay {
+    height: 72.4%;
+    background-color: #222;
+    position: absolute;
+    top: 14%;
+    left: 25%;
+    bottom: 0;
+    right: 24%;
+    display: none;
+    opacity: 0.4;
+    border-radius: 2px;
+  }
+
+  .dl {
+    position: absolute;
+    max-width: 100px;
+    width: 100%;
+    bottom: 36%;
+    border: none;
+    left: 36.9%;
+    display: none;
   }
 }
