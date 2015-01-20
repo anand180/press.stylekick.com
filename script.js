@@ -1,57 +1,57 @@
 $(document).ready(function() {
 	$('.screen1').on('mouseenter', function() {
-		$('.screen-overlay1').show();
-		$('#dl1').show();
+		$('.screen-overlay1').fadeIn('fast');
+		$('#dl1').fadeIn('fast');
 	});
 	$('.screen1').on('mouseleave', function() {
-		$('.screen-overlay1').hide();
-		$('#dl1').hide();
+		$('.screen-overlay1').fadeOut('fast');
+		$('#dl1').fadeOut('fast');
 	});
 
 	$('.screen2').on('mouseenter', function() {
-		$('.screen-overlay2').show();
-		$('#dl2').show();
+		$('.screen-overlay2').fadeIn('fast');
+		$('#dl2').fadeIn('fast');
 
 	});
 	$('.screen2').on('mouseleave', function() {
-		$('.screen-overlay2').hide();
-		$('#dl2').hide();
+		$('.screen-overlay2').fadeOut('fast');
+		$('#dl2').fadeOut('fast');
 
 	});
 
 	$('.screen3').on('mouseenter', function() {
-		$('.screen-overlay3').show();
-		$('#dl3').show();
+		$('.screen-overlay3').fadeIn('fast');
+		$('#dl3').fadeIn('fast');
 	});
 	$('.screen3').on('mouseleave', function() {
-		$('.screen-overlay3').hide();
-		$('#dl3').hide();
+		$('.screen-overlay3').fadeOut('fast');
+		$('#dl3').fadeOut('fast');
 	});
 
 	$('.screen4').on('mouseenter', function() {
-		$('.screen-overlay4').show();
-		$('#dl4').show();
+		$('.screen-overlay4').fadeIn('fast');
+		$('#dl4').fadeIn('fast');
 	});
 	$('.screen4').on('mouseleave', function() {
-		$('.screen-overlay4').hide();
-		$('#dl4').hide();
+		$('.screen-overlay4').fadeOut('fast');
+		$('#dl4').fadeOut('fast');
 	});
 
 	$('.screen5').on('mouseenter', function() {
-		$('.screen-overlay5').show();
-		$('#dl5').show();
+		$('.screen-overlay5').fadeIn('fast');
+		$('#dl5').fadeIn('fast');
 	});
 	$('.screen5').on('mouseleave', function() {
-		$('.screen-overlay5').hide();
-		$('#dl5').hide();
+		$('.screen-overlay5').fadeOut('fast');
+		$('#dl5').fadeOut('fast');
 	});
 
 	$('.screen6').on('mouseenter', function() {
-		$('.screen-overlay6').show();
-		$('#dl6').show();
+		$('.screen-overlay6').fadeIn('fast');
+		$('#dl6').fadeIn('fast');
 	});
 	$('.screen6').on('mouseleave', function() {
-		$('.screen-overlay6').hide();
-		$('#dl6').hide();
+		$('.screen-overlay6').fadeOut('fast');
+		$('#dl6').fadeOut('fast');
 	});
 })
